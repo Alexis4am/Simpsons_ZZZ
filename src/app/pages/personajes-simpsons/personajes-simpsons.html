@@ -1,0 +1,21 @@
+<h2>personajes-simpsons works!</h2>
+<h2> Listado de personajes </h2>
+
+<table border ="1">
+    <thead>
+        <tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let personaje of personajes; let i = index">
+            <td>https://cdn.thesimpsonsapi.com/500/character/360.webp </td> 
+            <!--ARREGLAR LO DE ARRIBA -->
+            <!--Botono Detalle-- Llama al servicio
+            que esta: Otro service  -->
+             <!--Pasar por diferentes paginas:  -->
+            <td>{{personaje.id}}</td>
+            <td>{{personaje.name}}</td>
+            <td>{{personaje.age}}</td>
+            
+        </tr>
+    </tbody>
+</table>

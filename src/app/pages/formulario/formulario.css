@@ -1,0 +1,8 @@
+h1{
+    color: rgb(55, 72, 91);
+}
+img{
+    width: 120px;
+    height: auto;
+    border: 5px solid black;
+}
